@@ -9,13 +9,15 @@
 int main(void)
 {
 	int i = 48;
+	int s = 32;
+	int c = 34;
 
 	while (i <= 57)
 	{
 		if(i != 57)
 		{
 		putchar(i);
-		putchar(", ");
+		putchar(c, s);
 		}
 		else
 		{
