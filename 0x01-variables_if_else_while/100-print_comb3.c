@@ -12,13 +12,13 @@ int main(void)
 	int space = 32;
 	int controller = 49;
 
-	while (outer <= 56)
-	{
+while (outer <= 56)
+{
 while (inner <= 57)
 {
 	putchar(outer);
 	putchar(inner);
-	if (outer != 56 || inner !=57)
+	if (outer != 56 || inner != 57)
 	{
 	putchar(comma);
 	putchar(space);
@@ -27,8 +27,8 @@ while (inner <= 57)
 	}
 	outer++;
 	controller++;
-	inner=controller;
-	}
+	inner = controller;
+}
 	putchar('\n');
 	return (0);
 }
