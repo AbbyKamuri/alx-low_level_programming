@@ -10,7 +10,7 @@ int main(void)
 {
 	int i = 48;
 	int s = 32;
-	int c = 34;
+	int c = 44;
 
 	while (i <= 57)
 	{
@@ -22,7 +22,7 @@ int main(void)
 		}
 		else
 		{
-		putchar(i);
+		putchar('%c\n', i);
 		}
 		
 		i++;
