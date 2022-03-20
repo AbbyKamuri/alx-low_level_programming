@@ -14,19 +14,15 @@ int main(void)
 
 	while (i <= 57)
 	{
+		putchar(i);
 		if(i != 57)
 		{
-		putchar(i);
 		putchar(c);
 		putchar(s);
 		}
-		else
-		{
-		putchar('%c\n', i);
-		}
-		
 		i++;
 	}
+	putchar('\n');
 	return (0);
 
 }
