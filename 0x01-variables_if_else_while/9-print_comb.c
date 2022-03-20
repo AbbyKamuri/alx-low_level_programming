@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<time.h>
+typedef int make_iso_compilers_happy;
 /**
  * main - entry point
  *
