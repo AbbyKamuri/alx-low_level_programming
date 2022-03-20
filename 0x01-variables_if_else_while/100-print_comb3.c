@@ -14,22 +14,21 @@ int main(void)
 
 	while (outer <= 56)
 	{
-	while(inner <= 57)
-        {
-         putchar(outer);
-         putchar(inner);
-        if (outer != 56 || inner !=57)
-         {
-         putchar(comma);
-         putchar(space);
-         }
-         inner++;
-        }
+while (inner <= 57)
+{
+	putchar(outer);
+	putchar(inner);
+	if (outer != 56 || inner !=57)
+	{
+	putchar(comma);
+	putchar(space);
+	}
+	inner++;
+	}
 	outer++;
-        controller++;
-        inner=controller;
+	controller++;
+	inner=controller;
 	}
 	putchar('\n');
 	return (0);
-
 }
