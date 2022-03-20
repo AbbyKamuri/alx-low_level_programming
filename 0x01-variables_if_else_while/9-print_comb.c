@@ -15,7 +15,7 @@ int main(void)
 
 	while (outer <= 56)
 	{
-		while(inner <= 57)
+	while(inner <= 57)
         {
          putchar(outer);
          putchar(inner);
