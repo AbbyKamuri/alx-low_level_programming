@@ -22,12 +22,11 @@ int main(void)
 		}
 		else
 		{
-		putchar(i);
+		putchar(i, '\n');
 		}
 		
 		i++;
 	}
-	putchar('\n');
 	return (0);
 
 }
