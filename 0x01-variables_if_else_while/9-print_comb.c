@@ -22,7 +22,7 @@ int main(void)
 		}
 		else
 		{
-		putchar(i, '\n');
+		putchar(i);
 		}
 		
 		i++;
