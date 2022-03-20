@@ -1,4 +1,6 @@
 #include<stdio.h>
+#define A 0x0001
+#define C 0x0002
 /**
  * main - entry point
  *
