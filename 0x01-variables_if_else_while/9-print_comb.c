@@ -15,7 +15,7 @@ int main(void)
 		if(i != 57)
 		{
 		putchar(i);
-		putchar(', ');
+		putchar(", ");
 		}
 		else
 		{
