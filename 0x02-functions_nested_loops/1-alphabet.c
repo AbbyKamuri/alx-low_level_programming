@@ -8,15 +8,16 @@
  */
 int main(void)
 {
-	char lowercase(char)
+	char lowercase(char start)
 	{
 		char start = 'a';
 
-		while ()
+		while (start <= 'z')
 		{
 		putchar(start);
 		start++;
 		}
 	}
+	lowercase(start);
 	return (0);
 }
