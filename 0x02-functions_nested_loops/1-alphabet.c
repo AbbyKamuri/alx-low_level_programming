@@ -1,23 +1,19 @@
-#include <stdlib.h>
-#include<time.h>
-#include<stdio.h>
+#include "main.h"
 /**
  * main - entry point
  *
  * Return: 1 (FAILURE)
  */
-int main(void)
+void print_lowercase(void)
 {
-	char lowercase(char start)
-	{
-		char start = 'a';
+	char lowercase;
 
-		while (start <= 'z')
+	lowercase = 'a';
+
+		while (lowercase <= 'z')
 		{
-		putchar(start);
-		start++;
+		_putchar(lowercase);
+		lowercase++;
 		}
-	}
-	lowercase(start);
-	return (0);
+_putchar('\n');
 }
