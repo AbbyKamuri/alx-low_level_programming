@@ -4,16 +4,15 @@
  *
  * Return: 1 (FAILURE)
  */
-void print_lowercase(void)
+void print_alphabet(void)
 {
-	char lowercase;
+	char alphabets;
 
-	lowercase = 'a';
-
-		while (lowercase <= 'z')
+	alphabets = 'a';
+		while (alphabets <= 'z')
 		{
-		_putchar(lowercase);
-		lowercase++;
+		_putchar(alphabets);
+		alphabets++;
 		}
 _putchar('\n');
 }
