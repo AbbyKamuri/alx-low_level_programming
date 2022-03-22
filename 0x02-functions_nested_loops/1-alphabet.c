@@ -7,6 +7,7 @@
 
 int main(void)
 {
+	char alphabets;
 	print_alphabet();
 	return (0);
 }
@@ -14,7 +15,7 @@ int main(void)
 
 void print_alphabet(void)
 {
-	char alphabets;
+	
 	alphabets = 'a';
 	while (alphabets <= 'z')
 	{
