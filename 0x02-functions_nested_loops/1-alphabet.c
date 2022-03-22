@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "main.h"
+
+void print_alphabet(void)
 /**
  * main - check the code
  *
