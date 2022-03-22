@@ -5,6 +5,16 @@
  *
  * Return: Always 0
  */
+{
+char alphabets;
+alphabets = 'a';
+while (alphabets <= 'z')
+{
+putchar(alphabets);
+alphabets++;
+}
+putchar('\n');
+}
 int main(void)
 {
 	print_alphabet();
