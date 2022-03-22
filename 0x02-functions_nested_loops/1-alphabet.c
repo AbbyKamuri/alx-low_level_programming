@@ -6,7 +6,7 @@
  *
  * Return: Always 0
  */
-char alphabets;
+
 int main(void)
 {
 	
@@ -17,7 +17,7 @@ int main(void)
 
 void print_alphabet(void)
 {
-	
+	char alphabets;
 	alphabets = 'a';
 	while (alphabets <= 'z')
 	{
