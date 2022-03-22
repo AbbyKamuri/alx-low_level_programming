@@ -8,21 +8,19 @@
  */
 int main(void)
 {
-	void print_alphabet(void);
-		print_alphabet();
-
-		void print_alphabet(void)
+	void print_alphabet(void)
 		{
 			char alphabets;
 
 			alphabets = 'a';
-			while()
+			while ()
 			{
-				_putchar(alphabets);
-				alphabets++
+				putchar(alphabets);
+				alphabets++;
 			}
-			_putchar('\n');
+			putchar('\n');
 		}
+	print_alphabet();
 return (0);
 
 }
