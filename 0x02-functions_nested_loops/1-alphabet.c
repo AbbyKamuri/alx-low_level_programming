@@ -4,10 +4,10 @@
  *
  * Return: Always 0
  */
-
+char alphabets;
 int main(void)
 {
-	char alphabets;
+	
 	print_alphabet();
 	return (0);
 }
