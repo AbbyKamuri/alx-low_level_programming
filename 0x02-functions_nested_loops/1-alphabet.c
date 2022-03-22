@@ -6,23 +6,9 @@
  *
  * Return: Always 0
  */
-print_alphabet()
-  {
-			
-			char alphabets;
-			alphabets = 'a';
-			while (alphabets <= 'z')
-			{
-				putchar(alphabets);
-				alphabets++;
-			}
-			putchar('\n');
-		};
 int main(void)
 {
 	print_alphabet();
-
-return (0);
-
+	return (0);
 }
 
