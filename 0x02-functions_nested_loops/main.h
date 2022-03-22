@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+char alphabets;
 void print_alphabet(void)
 {
-char alphabets;
+
 alphabets = 'a';
 while (alphabets <= 'z')
 {
