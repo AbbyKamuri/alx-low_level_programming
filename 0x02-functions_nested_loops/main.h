@@ -1,14 +1,15 @@
-// #include<stdio.h>
-// #include<stdlib.h>
-// void print_alphabet(void)
-// 		{
-// 			char alphabets;
+#include<stdio.h>
+#include<stdlib.h>
+char alphabets;
+void print_alphabet(void)
+		{
+			
 
-// 			alphabets = 'a';
-// 			while (alphabets <= 'z')
-// 			{
-// 				putchar(alphabets);
-// 				alphabets++;
-// 			}
-// 			putchar('\n');
-// 		}
+			alphabets = 'a';
+			while (alphabets <= 'z')
+			{
+				putchar(alphabets);
+				alphabets++;
+			}
+			putchar('\n');
+		}
