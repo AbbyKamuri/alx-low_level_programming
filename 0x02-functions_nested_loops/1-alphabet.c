@@ -1,20 +1,26 @@
-#include "main.h"
-#include<stdio.h>
-#include<stdlib.h>
+#include "main."
 /**
- * main - entry point
+ * main - check the code
  *
- * Return: 1 (FAILURE)
+ * Return: Always 0
  */
-void print_alphabet(void)
+int main(void)
 {
-	char alphabets;
+	void print_alphabet(void);
+		print_alphabet();
 
-	alphabets = 'a';
-		while (alphabets <= 'z')
+		void print_alphabet(void)
 		{
-		putchar(alphabets);
-		alphabets++;
+			char alphabets;
+
+			alphabets = 'a';
+			while()
+			{
+				_putchar(alphabets);
+				alphabets++
+			}
+			_putchar('\n');
 		}
-putchar('\n');
+return (0);
+
 }
