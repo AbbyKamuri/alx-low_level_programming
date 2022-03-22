@@ -5,9 +5,10 @@
  *
  * Return: Always 0
  */
+char alphabets;
 void print_alphabet(void)
 		{
-			char alphabets;
+			
 
 			alphabets = 'a';
 			while (alphabets <= 'z')
