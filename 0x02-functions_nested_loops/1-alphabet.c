@@ -4,12 +4,12 @@
 /**
  * print_alphabet - prints alphabets in lowercase
  *
- * 
+ *
  */
 void print_alphabet(void)
 {
 	char alphabets;
-	
+
 	alphabets = 'a';
 	while (alphabets <= 'z')
 	{
