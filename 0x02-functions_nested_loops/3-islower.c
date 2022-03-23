@@ -3,8 +3,8 @@
 #include<stdio.h>
 /**
  * int_islower - checks for lowercase letters
- *@ c is the parameter for _islower
- *Return type of _islower is int 
+ *@c - is the parameter for _islower
+ *Return: (1) if character is lowercase else (0)
  */
 int _islower(int c)
 {
