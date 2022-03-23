@@ -3,7 +3,7 @@
 #include<stdio.h>
 /**
  * _isalpha-  checks for alphabetic character.
- *@c:parameter to check if it is lower case
+ *@c:parameter to check if it is letter,lowercase or uppercase
  *Return- (1) if character is letter,lowercase or uppercase else (0)
  */
 int _isalpha(int c)
