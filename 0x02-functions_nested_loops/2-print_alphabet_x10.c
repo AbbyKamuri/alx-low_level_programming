@@ -8,13 +8,17 @@
  */
 void print_alphabet_x10(void)
 {
-	char lowercase-10_times;
+	char alphabets;
 	int i;
 
-	lowercase-10_times = print_alphabet();
 	for (i = 0; i < 10; i++)
 	{
-		putchar(lowercase-10_times);
+		alphabets = 'a';
+		while (alphabets <= 'z')
+		{
+			putchar(alphabets);
+			alphabets++;
+		}
 	}
 putchar('\n');
 }
