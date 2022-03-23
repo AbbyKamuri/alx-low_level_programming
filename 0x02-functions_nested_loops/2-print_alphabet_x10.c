@@ -8,13 +8,13 @@
  */
 void print_alphabet_x10(void)
 {
-	char 10x_lowercase;
+	char lowercase-10_times;
 	int i;
 
-	10x_lowercase = print_alphabet();
-	for(i = 0; i < 10; i++)
+	lowercase-10_times = print_alphabet();
+	for (i = 0; i < 10; i++)
 	{
-		putchar(results);
+		putchar(lowercase-10_times);
 	}
 putchar('\n');
 }
