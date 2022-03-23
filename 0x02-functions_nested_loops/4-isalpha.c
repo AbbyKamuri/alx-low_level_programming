@@ -4,7 +4,7 @@
 /**
  * _isalpha-  checks for alphabetic character.
  *@c:parameter to check if it is letter,lowercase or uppercase
- *Return- (1) if character is letter,lowercase or uppercase else (0)
+ *Return: (1) if character is letter and (0) if not
  */
 int _isalpha(int c)
 {
