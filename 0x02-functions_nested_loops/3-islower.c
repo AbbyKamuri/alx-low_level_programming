@@ -1,8 +1,14 @@
 #include <stdlib.h>
-#include<time.h>
+#include "main.h"
 #include<stdio.h>
 /**
  * main - entry point
  *
- * Return: 1 (FAILURE)
  */
+int _islower(int c)
+{
+if (c >= 'a' && c <= 'z')
+  return(1);
+else
+  return(0);
+}
